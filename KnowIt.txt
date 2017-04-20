@@ -1,8 +1,14 @@
 --- Just Some Notes ---
 
--> Padding vs Margin: <-
+-> Padding vs Margin <-
 padding - controls the amount of space between the element and its border (On the inside).
 margin - controls the amount of space between an element's border and surrounding elements (On the outside).
+
+-> Clockwise Notation <-
+Instead of specifying an element's padding-top, padding-right, 
+padding-bottom, and padding-left properties, 
+you can specify them all in one line, like this:
+padding: 10px 20px 10px 20px;
 
 
 
