@@ -32,3 +32,6 @@
     Why override? For when a framework/Css library is being used and 
     you want to modify an element anyway.
 
+-> Abbreviated Hex Code <- 
+    The short form has only three digits: one digit for red, one digit for green, and one digit for blue.
+    Ex: Red as #F00, Fuchsia as #F0F, Green	as #0F0 and Cyan as #0FF
