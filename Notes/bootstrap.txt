@@ -21,3 +21,6 @@
     2) Full width container, spanning the entire width of your viewport.
     Ex: <div class="container-fluid">...</div>
 
+-> Images <-
+    Using the img-responsive it's possible to adjust the image with the screen's width automatically. 
+
