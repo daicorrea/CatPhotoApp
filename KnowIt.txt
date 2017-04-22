@@ -7,8 +7,12 @@ margin - controls the amount of space between an element's border and surroundin
 -> Clockwise Notation <-
 Instead of specifying an element's padding-top, padding-right, 
 padding-bottom, and padding-left properties, 
-you can specify them all in one line, like this:
-padding: 10px 20px 10px 20px;
+you can specify them all in one line.
+Ex: padding: 10px 20px 10px 20px;
 
+-> Override CSS in the Same Element <-
+The second declaration will always take precedence over the first. 
+Because class2 is declared second, it overrides the attributes of class1.
+Ex: class="class1 class2"
 
 
