@@ -1,5 +1,7 @@
 --- Just Some Notes ---
 
+* Browsers read CSS from top to bottom
+
 -> Padding vs Margin <-
 padding - controls the amount of space between the element and its border (On the inside).
 margin - controls the amount of space between an element's border and surrounding elements (On the outside).
