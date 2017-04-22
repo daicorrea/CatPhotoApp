@@ -37,3 +37,9 @@
     For more font awesome icons see http://fontawesome.bootstrapcheatsheets.com/
     Sometimes people still prefer using .svg files. For more info or just food for thought, 
     see http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/
+
+-> Well <-
+    This class is used to creat an aspect of depth for elements adding a gray background and a rounded border. It can be used as:
+    1)<div class="well well-sm">Small Size Well</div>
+    2)<div class="well well-lg">Large Size Well</div>
+    3)<div class="well">Normal Size Well</div>
