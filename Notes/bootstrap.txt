@@ -24,3 +24,7 @@
 -> Images <-
     Using the img-responsive it's possible to adjust the image with the screen's width automatically. 
 
+-> Block Elements <-
+    When using a Block Element your element will fill your page's 100% width
+    and any elements after it will got to another line below the block.
+
