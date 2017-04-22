@@ -9,9 +9,7 @@
 -> Browsers read CSS from top to bottom.
 
 -> Responsive Design <-
-    Bootstrap is responsible to know the size you are using your screen and it will
-    automatically resize your HTML elements. This include mobile and tablet versions so 
-    when you use this framework you don't need to create another version of your website.
+    Bootstrap is responsible to know the size you are using your screen and it will automatically resize your HTML elements. This include mobile and tablet versions so when you use this framework you don't need to create another version of your website.
 
 -> Containers <-
     Bootstrap needs to use a containing element to wrap the content and adjust its grid. 
@@ -25,18 +23,15 @@
     Using the img-responsive it's possible to adjust the image with the screen's width automatically. 
 
 -> Block Elements <-
-    When using a Block Element your element will fill your page's 100% width
-    and any elements after it will got to another line below the block.
+    When using a Block Element your element will fill your page's 100% width and any elements after it will got to another line below the block.
 
 -> Grid System <-
-    Bootstrap has a 12 column grid layout used to facilitate putting elements side by side and
-    specify each width. An image example can be found on /images/bootstrap-grid-example.png
+    Bootstrap has a 12 column grid layout used to facilitate putting elements side by side and specify each width. An image example can be found on /images/bootstrap-grid-example.png
     Ex: <div class="row"> <div class="col-md-x">: md means medium and x is the number representing how many columns wide the element should be.
     Ex2: <div class="row"> <div class="col-xs-x">: xs means extra small.
 
 -> Font Awesome <-
-    Bootstrap uses font awesome so that icons can be treated as fonts. These icons are actually stored in .svg files 
-    so they are vector graphics. Before <i> elements were used only for italic. Now it can mean that "Here comes an icon!"
+    Bootstrap uses font awesome so that icons can be treated as fonts. These icons are actually stored in .svg files so they are vector graphics. Before <i> elements were used only for italic. Now it can mean that "Here comes an icon!".
     The fa in the class means you are using font awesome and the name after, the icon you would like to use.
     Ex: <i class="fa fa-info-circle"></i>
     For more font awesome icons see http://fontawesome.bootstrapcheatsheets.com/
