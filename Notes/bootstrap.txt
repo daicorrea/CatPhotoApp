@@ -1,0 +1,23 @@
+***********************
+--- Just Some Notes ---
+***********************
+
+-----------------------
+----- Bootstrap ------
+-----------------------
+
+-> Browsers read CSS from top to bottom.
+
+-> Responsive Design <-
+    Bootstrap is responsible to know the size you are using your screen and it will
+    automatically resize your HTML elements. This include mobile and tablet versions so 
+    when you use this framework you don't need to create another version of your website.
+
+-> Containers <-
+    Bootstrap needs to use a containing element to wrap the content and adjust its grid. 
+    There are two container options: 
+    1) Responsive fixed width container.
+    Ex: <div class="container">...</div>
+    2) Full width container, spanning the entire width of your viewport.
+    Ex: <div class="container-fluid">...</div>
+
