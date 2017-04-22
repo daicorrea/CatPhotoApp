@@ -17,4 +17,9 @@ The second declaration will always take precedence over the first.
 Because class2 is declared second, it overrides the attributes of class1.
 Ex: class="class1 class2"
 
+Override works in the following hierarchy: class < id < inline style. So, in the 
+following example the text will be white.
+Ex: <h2 id="orange-text" class="red-text blue-text" style="color: white">
+        CatPhotoApp</h2>
+
 
