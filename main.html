@@ -5,6 +5,7 @@
     <!--Adding Bootstrap-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
     <style>
         h2 {
@@ -19,6 +20,12 @@
         }
 
     </style>
+
+    <script>
+        $(document).ready(function() {
+            $("button").addClass("btn-info");
+        });
+    </script>
 </head>
 
 <body>
@@ -29,9 +36,9 @@
         </div>
         <img class="img-responsive" src="https://bit.ly/fcc-running-cats" alt="Some cute cats."/>
         <div class="row">
-            <div class="col-xs-4 well"><button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i>Like</button></div>
-            <div class="col-xs-4 well"><button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i>Info</button></div>
-            <div class="col-xs-4 well"><button class="btn btn-block btn-danger"><i class="fa fa fa-trash"></i>Delete</button></div>
+            <div class="col-xs-4 well"><button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> Like</button></div>
+            <div class="col-xs-4 well"><button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i> Info</button></div>
+            <div class="col-xs-4 well"><button class="btn btn-block btn-danger"><i class="fa fa fa-trash"></i> Delete</button></div>
         </div>
         <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
         <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
