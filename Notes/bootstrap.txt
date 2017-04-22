@@ -33,3 +33,12 @@
     specify each width. An image example can be found on /images/bootstrap-grid-example.png
     Ex: <div class="row"> <div class="col-md-x">: md means medium and x is the number representing how many columns wide the element should be.
     Ex2: <div class="row"> <div class="col-xs-x">: xs means extra small.
+
+-> Font Awesome <-
+    Bootstrap uses font awesome so that icons can be treated as fonts. These icons are actually stored in .svg files 
+    so they are vector graphics. Before <i> elements were used only for italic. Now it can mean that "Here comes an icon!"
+    The fa in the class means you are using font awesome and the name after, the icon you would like to use.
+    Ex: <i class="fa fa-info-circle"></i>
+    For more font awesome icons see http://fontawesome.bootstrapcheatsheets.com/
+    Sometimes people still prefer using .svg files. For more info or just food for thought, 
+    see http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/
