@@ -25,6 +25,7 @@
     <script>
         $(document).ready(function() {
             $("button").addClass("animated bounce");
+            $("#submit-btn").addClass("animated lightSpeedIn")
         });
     </script>
 </head>
@@ -37,24 +38,30 @@
         </div>
         <img class="img-responsive" src="https://bit.ly/fcc-running-cats" alt="Some cute cats."/>
         <div class="row">
-            <div class="col-xs-4 well"><button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> Like</button></div>
-            <div class="col-xs-4 well"><button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i> Info</button></div>
-            <div class="col-xs-4 well"><button class="btn btn-block btn-danger"><i class="fa fa fa-trash"></i> Delete</button></div>
+            <div class="col-xs-4">
+                <div class="well well-sm"><button class="btn btn-block btn-primary"><i class="fa fa-thumbs-up"></i> Like</button></div>
+            </div>
+            <div class="col-xs-4">
+                <div class="well well-sm"><button class="btn btn-block btn-info"><i class="fa fa-info-circle"></i> Info</button></div>
+            </div>
+            <div class="col-xs-4">
+                <div class="well well-sm"><button class="btn btn-block btn-danger"><i class="fa fa fa-trash"></i> Delete</button></div>
+            </div>
         </div>
         <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
         <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
         <div>    
             <p>Things cats <span class="text-danger">love</span>:</p>
             <ul>
-                <li>cat nip</li>
-                <li>laser pointers</li>
-                <li>lasagna</li>
+                <li>Cat Nip</li>
+                <li>Laser Pointers</li>
+                <li>Lasagna</li>
             </ul>
             <p>Top 3 things cats <span class="text-danger">hate</span>:</p>
             <ol>
-                <li>flea treatment</li>
-                <li>thunder</li>
-                <li>other cats</li>
+                <li>Flea Treatment</li>
+                <li>Thunder</li>
+                <li>Other Cats</li>
             </ol>
         </div>
         <form action="/submit-cat-photo" id="cat-photo-form">
@@ -69,7 +76,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-7"><input type="text" class="form-control" placeholder="cat photo URL" required></div>
-                <div class="col-xs-5"><button type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button></div>
+                <div class="col-xs-5"><button id="submit-btn" type="submit" class="btn btn-primary"><i class="fa fa-paper-plane"></i> Submit</button></div>
             </div>
         </form>
     </div>
