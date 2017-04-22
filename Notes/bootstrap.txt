@@ -28,3 +28,8 @@
     When using a Block Element your element will fill your page's 100% width
     and any elements after it will got to another line below the block.
 
+-> Grid System <-
+    Bootstrap has a 12 column grid layout used to facilitate putting elements side by side and
+    specify each width. An image example can be found on /images/bootstrap-grid-example.png
+    Ex: <div class="row"> <div class="col-md-x">: md means medium and x is the number representing how many columns wide the element should be.
+    Ex2: <div class="row"> <div class="col-xs-x">: xs means extra small.
